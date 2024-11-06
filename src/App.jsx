@@ -1,10 +1,16 @@
 import React from 'react';
 import Navigation from './Navigation';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
 
-const App = () => {
+function App() {
   return (
     <div>
       <Navigation />
+      <About />
+      <Skills />
+      <Projects />
     </div>
   );
 }
