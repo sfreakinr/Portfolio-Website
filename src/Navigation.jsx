@@ -14,7 +14,7 @@ const Navigation = () => {
             <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </Container> 
     </Navbar>
   );
 };
