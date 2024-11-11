@@ -14,13 +14,9 @@ const Skills = () => {
           <Col md={4}>
             <Card className="p-3">
               <Card.Body>
-                <Card.Title>JavaScript</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card className="p-3">
-              <Card.Body>
+                <Card.Title>HTML </Card.Title>
+                <Card.Title>CSS </Card.Title>
+                <Card.Title>JavaScript </Card.Title>
                 <Card.Title>React</Card.Title>
               </Card.Body>
             </Card>
@@ -28,7 +24,23 @@ const Skills = () => {
           <Col md={4}>
             <Card className="p-3">
               <Card.Body>
-                <Card.Title>Bootstrap</Card.Title>
+                <Card.Title>Docker</Card.Title>
+                <Card.Title>Kubernetes</Card.Title>
+                <Card.Title>Ansible</Card.Title>
+                <Card.Title>Hadoop</Card.Title>
+                <Card.Title>AWS</Card.Title>
+                <Card.Title>Openshift</Card.Title>
+                <Card.Title>RHEL</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="p-3">
+              <Card.Body>
+                <Card.Title>Python</Card.Title>
+                <Card.Title>C Programming</Card.Title>
+                <Card.Title>Adobe Photoshop</Card.Title>
+                <Card.Title>Adobe Premiere Pro</Card.Title>
               </Card.Body>
             </Card>
           </Col>
