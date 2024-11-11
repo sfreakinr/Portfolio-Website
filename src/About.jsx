@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import profileImage from './assets/SR_image.jpg';
 
 const About = () => {
   return (
@@ -8,15 +9,15 @@ const About = () => {
         <Row className="text-center">
           <Col>
             <Image 
-              src="src\assets\SR_image.jpg"  
+              src={profileImage}  
               roundedCircle 
               alt="Profile"
               width="150"
               height="150"
               className="mb-3"
             />
-            <h2>Subin Raj</h2> {/* Replace "Your Name" with your actual name */}
-            <p>Hello! I'm a web developer & graphic desingner based on kerala who creates stunning functional websites and graphics.</p>
+            <h2>Subin Raj</h2>
+            <p>Hello! I'm a web developer & graphic designer based in Kerala who creates stunning functional websites and graphics.</p>
           </Col>
         </Row>
       </Container>
